@@ -1,0 +1,55 @@
+/* Rule 1: Make the unordered list look like a normal nav bar */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    
+    /* Rule 2: Change the background behind the text of the li's to a color */
+    background-color: #00205B;
+    color: #FFFFFF;
+    
+    /* Rule 3a: enlarges the area (left and right sides) by 30 pixels using margin */
+    /* margin: 0 30px; */
+    
+    /* Rule 3b: enlarges the area (left and right sides) by 30 em's using margin */
+    /* margin: 0 30em; */
+    
+    /* Rule 4a: enlarges the area (left and right sides) by 30 pixels using padding */
+    /* padding: 0 30px; */
+    
+    /* Rule 4b: enlarges the area (left and right sides) by 30 em's using padding */
+    /* padding: 0 30em; */
+    
+    /* Rule 4c: Make the padding the width you want */
+    padding: 10px 20px;
+}
+
+/* Rule 5: Make a CSS rule to move the paragraph in the footer to the right side */
+footer p {
+    text-align: right;
+}
+
+/* Rule 6: Adjust the height and width of the image to be 400 x 400 */
+img {
+    width: 400px;
+    height: 400px;
+}
+
+/* Rule 7: Cause the span element to be placed on top of the image's lower right corner */
+div {
+    position: relative;
+    display: inline-block;
+}
+
+span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #CE1126;
+    color: white;
+    padding: 5px;
+}
