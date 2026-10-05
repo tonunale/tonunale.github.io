@@ -104,6 +104,27 @@ a { color: inherit; }
 }
 .site-nav a:hover { background: var(--mustard); color: var(--ink); }
 
+.back-button {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0.45rem 1.1rem;
+    border-radius: 999px;
+    background: var(--cream);
+    color: var(--ink);
+    border: 2px solid var(--cream);
+    box-shadow: var(--pop-sm);
+    transition: transform 0.15s, box-shadow 0.15s, background 0.2s;
+    white-space: nowrap;
+}
+.back-button:hover {
+    background: var(--mustard);
+    color: var(--ink);
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0 var(--mustard);
+}
+
 .signin { position: relative; }
 .signin summary {
     list-style: none;
@@ -117,6 +138,7 @@ a { color: inherit; }
     border: 2px solid var(--cream);
     transition: transform 0.25s var(--ease);
 }
+
 .signin summary::-webkit-details-marker { display: none; }
 .signin summary:hover { transform: rotate(-3deg) scale(1.05); }
 
