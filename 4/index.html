@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Food is culture. Explore the world's culinary regions and staple crops with AgriCulture.">
+    <meta name="keywords" content="food is culture, agriculture, culinary regions, staple crops, food history, Americas, Asia, Europe, Africa">
+    <meta name="author" content="Timothy O Nunaley Jr.">
+    <title>AgriCulture — Food Is Culture</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="index.html">Agri<span>Culture</span></a>
+
+            <nav class="site-nav" aria-label="Primary">
+                <a href="#regions">Regions</a>
+                <a href="#staples">Staples</a>
+            </nav>
+
+            <details class="signin">
+                <summary>Sign in</summary>
+                <form class="login-form" action="#" method="get" aria-label="Sign in to AgriCulture">
+                    <label for="username">Username</label>
+                    <input id="username" type="text" name="username" required>
+                    <label for="password">Password</label>
+                    <input id="password" type="password" name="password" required>
+                    <button type="submit">Sign In</button>
+                </form>
+            </details>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero">
+            <svg class="stamp" viewBox="0 0 120 120" aria-hidden="true">
+                <defs>
+                    <path id="stamp-circle" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/>
+                </defs>
+                <circle cx="60" cy="60" r="57" fill="none" stroke="currentColor" stroke-width="2"/>
+                <circle cx="60" cy="60" r="31" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
+                <text font-size="10" font-weight="700" letter-spacing="1" fill="currentColor">
+                    <textPath href="#stamp-circle" textLength="270" lengthAdjust="spacing">FIELD NOTES · FOOD IS CULTURE · EST. 2026 ·</textPath>
+                </text>
+                <text x="60" y="66" text-anchor="middle" font-size="18" font-weight="900" fill="currentColor">A–C</text>
+            </svg>
+
+            <p class="eyebrow">A culinary atlas</p>
+            <h1>Food is <span class="highlight">culture.</span></h1>
+            <p class="hero-lead">Every staple crop carries history, place, and people. Explore the regions that shaped global cuisines, then open a crop dossier. Sign in to keep research notes across sessions.</p>
+
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="#regions">Explore regions</a>
+                <a class="btn btn-ghost" href="#staples">Compare staples</a>
+                <span class="scribble" aria-hidden="true">start here ↩</span>
+            </div>
+
+            <ul class="hero-stats" aria-label="Site at a glance">
+                <li><strong>4</strong> culinary regions</li>
+                <li><strong>16</strong> staple crops</li>
+                <li><strong>1</strong> shared table</li>
+            </ul>
+        </section>
+
+        <div class="marquee" aria-hidden="true">
+            <div class="marquee-track">
+                <ul>
+                    <li>Corn</li><li>Rice</li><li>Wheat</li><li>Sorghum</li><li>Beans</li><li>Olives</li><li>Cassava</li><li>Tea</li><li>Squash</li><li>Millet</li><li>Chickpeas</li><li>Yams</li>
+                </ul>
+                <ul>
+                    <li>Corn</li><li>Rice</li><li>Wheat</li><li>Sorghum</li><li>Beans</li><li>Olives</li><li>Cassava</li><li>Tea</li><li>Squash</li><li>Millet</li><li>Chickpeas</li><li>Yams</li>
+                </ul>
+            </div>
+        </div>
+
+        <section id="regions" aria-labelledby="regions-heading">
+            <div class="section-head">
+                <h2 id="regions-heading">Pick a <span class="highlight">packet</span></h2>
+                <p>Four culinary regions. Each one opens a page of staple crops that define local food culture.</p>
+            </div>
+
+            <div class="grid-container">
+                <article class="card card--americas">
+                    <a href="americas.html">
+                        <figure class="media-slot">
+                            <img src="img/region-americas.jpg" alt="Rows of tall corn stalks under a hazy sky representing Americas agriculture">
+                        </figure>
+                        <div class="card-content">
+                            <h3>Americas</h3>
+                            <p>Corn, beans, squash, and tomatoes.</p>
+                            <span class="card-arrow" aria-hidden="true">Open →</span>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="card card--asia">
+                    <a href="asia.html">
+                        <figure class="media-slot">
+                            <img src="img/region-asia.jpg" alt="Bowl of steamed rice with breaded shrimp and vegetable garnish representing Asia">
+                        </figure>
+                        <div class="card-content">
+                            <h3>Asia</h3>
+                            <p>Rice, soybeans, millet, and tea.</p>
+                            <span class="card-arrow" aria-hidden="true">Open →</span>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="card card--europe">
+                    <a href="europe.html">
+                        <figure class="media-slot">
+                            <img src="img/region-europe.jpg" alt="Rolling hillside farms and vineyards representing Europe">
+                        </figure>
+                        <div class="card-content">
+                            <h3>Europe</h3>
+                            <p>Wheat, olives, grapes, and chickpeas.</p>
+                            <span class="card-arrow" aria-hidden="true">Open →</span>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="card card--africa">
+                    <a href="africa.html">
+                        <figure class="media-slot">
+                            <img src="img/region-africa.jpg" alt="Some dude shucking corn in a dried harvest field representing African agriculture">
+                        </figure>
+                        <div class="card-content">
+                            <h3>Africa</h3>
+                            <p>Sorghum, yams, pearl millet, and cassava.</p>
+                            <span class="card-arrow" aria-hidden="true">Open →</span>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section id="staples" class="data-table-container" aria-labelledby="yield-heading">
+            <div class="section-head">
+                <h2 id="yield-heading">Today's harvest <small>Global staple production · 2025 estimates</small></h2>
+                <p>Quick comparison of major cereal yields by primary culinary region. Values are sample research figures for this course mock-up.</p>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <caption>Estimated annual cereal yields by crop and region</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Crop</th>
+                            <th scope="col">Primary region</th>
+                            <th scope="col">Annual yield (millions of tonnes)</th>
+                            <th scope="col">Growth cycle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Maize (Corn)</th>
+                            <td>Americas</td>
+                            <td><div class="bar-cell"><span class="bar" style="--w:100%"></span><span class="num">1,148</span></div></td>
+                            <td>90–120 days</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Rice</th>
+                            <td>Asia</td>
+                            <td><div class="bar-cell"><span class="bar" style="--w:66%"></span><span class="num">756</span></div></td>
+                            <td>105–150 days</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Wheat</th>
+                            <td>Europe</td>
+                            <td><div class="bar-cell"><span class="bar" style="--w:64%"></span><span class="num">734</span></div></td>
+                            <td>110–130 days</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Sorghum</th>
+                            <td>Africa</td>
+                            <td><div class="bar-cell"><span class="bar" style="--w:5.4%"></span><span class="num">62</span></div></td>
+                            <td>90–140 days</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <aside class="fun-fact">
+            <strong>Food is culture</strong>
+            <p>Crop domestication predates written history in several regions. What people grow and cook is how culture travels. Choose a region to explore the details. Interactive charts and maps will appear in a later project stage; crop pages currently show a static map sample.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p class="footer-brand">Agri<span>Culture</span></p>
+        <p>&copy; 2026 AgriCulture Database · CSci 3054 project by Timothy O Nunaley Jr.</p>
+        <p>Contact: Timothy O Nunaley Jr. · CSci 3054 · University of Mississippi</p>
+    </footer>
+</body>
+</html>
