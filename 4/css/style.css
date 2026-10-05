@@ -104,25 +104,33 @@ a { color: inherit; }
 }
 .site-nav a:hover { background: var(--mustard); color: var(--ink); }
 
-.back-button {
+.site-header .back-button {
     display: inline-block;
+    flex-shrink: 0;
     text-decoration: none;
+    font-family: "Work Sans", system-ui, sans-serif;
     font-weight: 700;
     font-size: 0.9rem;
+    line-height: 1.2;
     padding: 0.45rem 1.1rem;
     border-radius: 999px;
-    background: var(--cream);
-    color: var(--ink);
+    background: var(--mustard);
+    color: var(--ink) !important;
     border: 2px solid var(--cream);
-    box-shadow: var(--pop-sm);
+    box-shadow: 3px 3px 0 var(--cream);
     transition: transform 0.15s, box-shadow 0.15s, background 0.2s;
     white-space: nowrap;
 }
-.back-button:hover {
-    background: var(--mustard);
-    color: var(--ink);
-    transform: translate(-2px, -2px);
-    box-shadow: 6px 6px 0 var(--mustard);
+.site-header .back-button:hover,
+.site-header .back-button:focus-visible {
+    background: var(--tomato);
+    color: var(--cream) !important;
+    transform: translate(-1px, -1px);
+    box-shadow: 4px 4px 0 var(--cream);
+}
+.site-header .back-button:active {
+    transform: translate(2px, 2px);
+    box-shadow: 0 0 0 var(--cream);
 }
 
 .signin { position: relative; }
