@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interactive two-step explorer: choose a culinary region, then open a staple crop dossier.">
+    <meta name="keywords" content="culinary regions, staple crops, interactive atlas, agriculture">
+    <meta name="author" content="Timothy O Nunaley Jr.">
+    <title>Explore Regions — AgriCulture</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="index.html">Agri<span>Culture</span></a>
+
+            <nav class="site-nav" aria-label="Primary">
+                <a href="index.html">Home</a>
+                <a href="explore.html" aria-current="page">Explore</a>
+                <a href="staples.html">Staples</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <a href="../index.html" class="back-button">Portfolio</a>
+
+            <details class="signin">
+                <summary>Sign in</summary>
+                <form class="login-form" action="#" method="get" aria-label="Sign in to AgriCulture">
+                    <label for="username">Username</label>
+                    <input id="username" type="text" name="username" autocomplete="username" required>
+                    <label for="password">Password</label>
+                    <input id="password" type="password" name="password" autocomplete="current-password" required>
+                    <button type="submit">Sign In</button>
+                    <p id="signin-status" class="signin-status" role="status" aria-live="polite"></p>
+                </form>
+            </details>
+        </div>
+    </header>
+
+    <main id="main">
+        <div class="hero-blurb">
+            <h1>Interactive <span class="highlight">explorer</span></h1>
+            <p>This page replaces the old multi-page region → crop links. Click to choose a region, then a crop. Each step updates the page content through JavaScript and data loaded from <code>data/regions.json</code>.</p>
+        </div>
+
+        <p id="explore-status" class="explore-status" role="status" aria-live="polite">Preparing explorer…</p>
+
+        <div id="explore-panel" aria-live="polite">
+            <div class="loading-panel" role="status">
+                <p><strong>Loading culinary regions…</strong></p>
+                <p>The rest of the site stays available while data loads.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="footer-brand">Agri<span>Culture</span></p>
+        <p>&copy; 2026 AgriCulture Database · CSci 3054 Project 4 by Timothy O Nunaley Jr.</p>
+        <p>Contact: Timothy O Nunaley Jr. · CSci 3054 · University of Mississippi</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/explore.js"></script>
+</body>
+</html>
