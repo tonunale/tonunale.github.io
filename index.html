@@ -3,32 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Computer Science Projects</title>
+    <title>Timothy Nunaley Jr. | Computer Science Portfolio</title>
     <meta name="author" content="Timothy O Nunaley Jr.">
-    <meta name="description" content="page for computer science projects.">
+    <meta name="description" content="Portfolio of computer science projects and activities for CSCI 3054.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Computer Science Projects 3054</h1>
-    </header>
-    
+
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <filter id="liquid" x="0" y="0" width="100%" height="100%">
+            <feTurbulence type="fractalNoise" baseFrequency="0.008 0.012" numOctaves="2" seed="4" result="noise"/>
+            <feGaussianBlur in="noise" stdDeviation="3" result="softNoise"/>
+            <feDisplacementMap in="SourceGraphic" in2="softNoise" scale="38" xChannelSelector="R" yChannelSelector="G"/>
+        </filter>
+    </svg>
+
+    <div class="bg" aria-hidden="true">
+        <span class="blob b1"></span>
+        <span class="blob b2"></span>
+        <span class="blob b3"></span>
+        <span class="blob b4"></span>
+        <span class="grain"></span>
+    </div>
+
+    <nav class="glass nav">
+        <span class="nav-mark">TN</span>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
     <main>
-        <div>
-            <ul>
-                <li><a href="1/index.html">Project 1</a></li>
-                <li><a href="2/index.html">Activity 2</a></li>
-                <li><a href="3/index.html">Project 2</a></li>
-                <li><a href="4/index.html">Project 3</a></li>
-                <li><a href="5/index.html">Activity 4</a></li>
-                <li><a href="6/index.html">Project 4</a></li>
-                
+        <section class="hero">
+            <div class="glass hero-card">
+                <p class="eyebrow">Computer Science · 3054</p>
+                <h1>Timothy O. <span>Nunaley Jr.</span></h1>
+                <p class="lede">A collection of projects and activities documenting what I've built, broken, and learned along the way.</p>
+                <a class="btn" href="#work">View projects <span aria-hidden="true">↓</span></a>
+            </div>
+        </section>
+
+        <section id="work" class="work">
+            <h2>Selected Work</h2>
+            <ul class="grid">
+                <li><a class="glass card" href="1/index.html">
+                    <span class="num">01</span>
+                    <h3>Project 1</h3>
+                    <p>Add a one-line description of this project.</p>
+                    <span class="tag">Project</span>
+                </a></li>
+                <li><a class="glass card" href="2/index.html">
+                    <span class="num">02</span>
+                    <h3>Activity 2</h3>
+                    <p>Add a one-line description of this activity.</p>
+                    <span class="tag">Activity</span>
+                </a></li>
+                <li><a class="glass card" href="3/index.html">
+                    <span class="num">03</span>
+                    <h3>Project 2</h3>
+                    <p>Add a one-line description of this project.</p>
+                    <span class="tag">Project</span>
+                </a></li>
+                <li><a class="glass card" href="4/index.html">
+                    <span class="num">04</span>
+                    <h3>Project 3</h3>
+                    <p>Add a one-line description of this project.</p>
+                    <span class="tag">Project</span>
+                </a></li>
+                <li><a class="glass card" href="5/index.html">
+                    <span class="num">05</span>
+                    <h3>Activity 4</h3>
+                    <p>Add a one-line description of this activity.</p>
+                    <span class="tag">Activity</span>
+                </a></li>
+                <li><a class="glass card" href="6/index.html">
+                    <span class="num">06</span>
+                    <h3>Project 4</h3>
+                    <p>Add a one-line description of this project.</p>
+                    <span class="tag">Project</span>
+                </a></li>
             </ul>
-        </div>
+        </section>
+
+        <section id="about" class="split">
+            <div class="glass panel">
+                <h2>About</h2>
+                <p>Write two or three sentences about yourself, your interests in computer science, and what you want to build next.</p>
+            </div>
+            <div class="glass panel" id="contact">
+                <h2>Contact</h2>
+                <p>Add your email, GitHub, or LinkedIn here.</p>
+            </div>
+        </section>
     </main>
 
-    <footer>
+    <footer class="glass foot">
         <p>&copy; 2026 Timothy O Nunaley Jr.</p>
     </footer>
+
+    <script>
+        const glassEls = document.querySelectorAll('.glass');
+        const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        glassEls.forEach(el => {
+            el.addEventListener('pointermove', e => {
+                const r = el.getBoundingClientRect();
+                const x = e.clientX - r.left, y = e.clientY - r.top;
+                el.style.setProperty('--mx', x + 'px');
+                el.style.setProperty('--my', y + 'px');
+                if (el.classList.contains('card') && !reduce) {
+                    const rx = ((y / r.height) - 0.5) * -8;
+                    const ry = ((x / r.width) - 0.5) * 8;
+                    el.style.transform = `perspective(700px) rotateX(${rx}deg) rotateY(${ry}deg) translateY(-4px)`;
+                }
+            });
+            el.addEventListener('pointerleave', () => {
+                el.style.transform = '';
+            });
+        });
+
+        if (!reduce) {
+            const bg = document.querySelector('.bg');
+            addEventListener('pointermove', e => {
+                bg.style.setProperty('--px', (e.clientX / innerWidth - 0.5).toFixed(3));
+                bg.style.setProperty('--py', (e.clientY / innerHeight - 0.5).toFixed(3));
+            });
+        }
+    </script>
 </body>
 </html>
