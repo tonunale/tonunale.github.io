@@ -1,0 +1,248 @@
+{
+  "regions": [
+    {
+      "id": "americas",
+      "name": "Americas",
+      "summary": "Mesoamerican staples that reshaped global food—and culture—after contact with the Old World.",
+      "image": "img/region-americas.jpg",
+      "imageAlt": "Rows of tall corn stalks under a hazy sky representing Americas agriculture",
+      "crops": [
+        {
+          "id": "corn",
+          "name": "Corn / Maize",
+          "scientificName": "Zea mays",
+          "teaser": "The cornerstone of Mesoamerican agriculture.",
+          "image": "img/corn.jpg",
+          "imageAlt": "Ears of corn",
+          "firstCultivated": "~7000 BCE",
+          "optimalClimate": "Warm temperate to tropical",
+          "waterRequirement": "18 to 25 inches annually",
+          "description": "Maize was domesticated from teosinte in southern Mexico and became the sacred staple of Mesoamerican civilizations. Nixtamalization unlocked nutrients and created masa for tortillas and tamales. Today corn is the world's most produced cereal, used for food, feed, and industry.",
+          "quickFact": "Modern maize was domesticated from much smaller teosinte."
+        },
+        {
+          "id": "beans",
+          "name": "Beans",
+          "scientificName": "Phaseolus vulgaris",
+          "teaser": "Paired with corn for complete nutrition.",
+          "image": "img/pods.jpg",
+          "imageAlt": "Dried bean pods",
+          "firstCultivated": "~5000 BCE",
+          "optimalClimate": "Warm temperate to subtropical",
+          "waterRequirement": "14 to 20 inches annually",
+          "description": "Common beans formed one leg of the Mesoamerican Three Sisters planting system with corn and squash. Climbing varieties used maize stalks as living trellises while enriching soil with nitrogen. Black, pinto, and other beans remain essential protein sources across the Americas.",
+          "quickFact": "Beans and corn together provide a more complete protein profile."
+        },
+        {
+          "id": "squash",
+          "name": "Squash",
+          "scientificName": "Cucurbita spp.",
+          "teaser": "The third crop of the Three Sisters.",
+          "image": "img/squash.jpg",
+          "imageAlt": "Colorful winter squash",
+          "firstCultivated": "~8000 BCE",
+          "optimalClimate": "Warm growing season with frost-free nights",
+          "waterRequirement": "16 to 22 inches annually",
+          "description": "Squash may be the earliest domesticated plant in Mesoamerica. Broad leaves shaded soil and suppressed weeds in polyculture fields, while fruit and nutrient-rich seeds provided calories through winter storage. Pumpkins, zucchini, and winter squash varieties descend from these New World crops.",
+          "quickFact": "Broad leaves helped shade soil and reduce weeds."
+        },
+        {
+          "id": "tomatoes",
+          "name": "Tomatoes",
+          "scientificName": "Solanum lycopersicum",
+          "teaser": "A New World fruit that transformed world cuisine.",
+          "image": "img/tomatoes.jpg",
+          "imageAlt": "Fresh red tomatoes",
+          "firstCultivated": "~500 BCE",
+          "optimalClimate": "Warm temperate with ample sun",
+          "waterRequirement": "20 to 28 inches annually",
+          "description": "Tomatoes were domesticated in Mesoamerica from wild Andean ancestors and used in sauces and stews long before the Columbian Exchange. After reaching Europe and Asia, they transformed Mediterranean and global cooking. Fresh fruit, paste, and canned tomatoes now rank among the world's most important vegetable crops.",
+          "quickFact": "Their culinary importance expanded rapidly after the Columbian Exchange."
+        }
+      ]
+    },
+    {
+      "id": "asia",
+      "name": "Asia",
+      "summary": "Core staples from rice agriculture to tea cultivation—foodways that define East Asian culture.",
+      "image": "img/region-asia.jpg",
+      "imageAlt": "Bowl of steamed rice with breaded shrimp and vegetable garnish representing Asia",
+      "crops": [
+        {
+          "id": "rice",
+          "name": "Rice",
+          "scientificName": "Oryza sativa",
+          "teaser": "The daily grain of East Asia.",
+          "image": "img/rice.jpg",
+          "imageAlt": "Cooked rice in a bowl",
+          "firstCultivated": "~8000 BCE",
+          "optimalClimate": "Warm, humid subtropical to tropical",
+          "waterRequirement": "30 to 50 inches annually (often flooded)",
+          "description": "Rice domestication in the Yangtze basin transformed East Asian settlement patterns. Wet-rice paddies support dense populations and shaped communal labor systems. Steamed rice, noodles, and fermented products remain the caloric core of many East Asian diets.",
+          "quickFact": "It remains a primary calorie source for billions of people."
+        },
+        {
+          "id": "soybeans",
+          "name": "Soybeans",
+          "scientificName": "Glycine max",
+          "teaser": "Protein for tofu, sauce, and oil.",
+          "image": "img/soybeans.jpg",
+          "imageAlt": "Soybeans",
+          "firstCultivated": "~3000 BCE",
+          "optimalClimate": "Temperate to warm temperate",
+          "waterRequirement": "18 to 26 inches annually",
+          "description": "Soybeans originated in East Asia and became a versatile source of protein and oil. Fermentation produced soy sauce, miso, and tempeh traditions, while tofu and edamame remain everyday foods. As a nitrogen-fixing legume, soy also improved crop rotations in traditional farming systems.",
+          "quickFact": "One crop used across many traditional East Asian foods."
+        },
+        {
+          "id": "millet",
+          "name": "Millet",
+          "scientificName": "Setaria italica",
+          "teaser": "An early dryland cereal of northern China.",
+          "image": "img/millet.jpg",
+          "imageAlt": "Millet grain",
+          "firstCultivated": "~8000 BCE",
+          "optimalClimate": "Semi-arid temperate",
+          "waterRequirement": "10 to 16 inches annually",
+          "description": "Foxtail millet was a founding cereal of northern Chinese agriculture long before rice dominated the south. It tolerates poor soils and short growing seasons, making it vital on the dry loess plateau. Porridges, steamed cakes, and fermented drinks still use millet across East Asia.",
+          "quickFact": "Foxtail millet was a foundational cereal in northern China before rice dominated the south."
+        },
+        {
+          "id": "tea",
+          "name": "Tea",
+          "scientificName": "Camellia sinensis",
+          "teaser": "A cultivated leaf that shaped trade and ritual.",
+          "image": "img/tea.jpg",
+          "imageAlt": "Tea leaves",
+          "firstCultivated": "~2000 BCE",
+          "optimalClimate": "Humid subtropical highlands",
+          "waterRequirement": "40 to 60 inches annually",
+          "description": "Tea began as a medicinal and ritual plant in southwestern China before becoming a daily beverage across East Asia. Terraced tea gardens and careful processing created green, oolong, and black tea styles. The crop later drove global trade networks connecting Asia, Europe, and colonial plantations.",
+          "quickFact": "Tea began in medicinal use and later became a daily social beverage."
+        }
+      ]
+    },
+    {
+      "id": "europe",
+      "name": "Europe",
+      "summary": "Mediterranean grains, fruits, and legumes that shaped European food culture.",
+      "image": "img/region-europe.jpg",
+      "imageAlt": "Rolling hillside farms and vineyards representing Europe",
+      "crops": [
+        {
+          "id": "wheat",
+          "name": "Wheat",
+          "scientificName": "Triticum",
+          "teaser": "The foundation of bread and pasta.",
+          "image": "img/wheat.jpg",
+          "imageAlt": "Wheat field",
+          "firstCultivated": "~9600 BCE",
+          "optimalClimate": "Temperate",
+          "waterRequirement": "12 to 15 inches annually",
+          "description": "Wheat was one of the first crops to be domesticated in the Fertile Crescent. Its ability to self-pollinate greatly facilitated the selection of many distinct domesticated varieties. In the Mediterranean diet, it forms the caloric backbone, primarily consumed as bread, couscous, and pasta.",
+          "quickFact": "Wheat can self-pollinate, which helped early farmers select better varieties."
+        },
+        {
+          "id": "olives",
+          "name": "Olives",
+          "scientificName": "Olea europaea",
+          "teaser": "Essential for oil and preservation.",
+          "image": "img/olives.jpg",
+          "imageAlt": "Olives on a branch",
+          "firstCultivated": "~6000 BCE",
+          "optimalClimate": "Mediterranean (hot, dry summers)",
+          "waterRequirement": "18 to 24 inches annually",
+          "description": "The olive tree is among the longest-lived cultivated plants of the Mediterranean basin. Its fruit provided oil for cooking, lighting, and preservation, making olives a cornerstone of coastal economies from the Levant to Iberia. Today, table olives and olive oil remain defining flavors of regional cuisine.",
+          "quickFact": "Some olive trees remain productive for centuries."
+        },
+        {
+          "id": "grapes",
+          "name": "Grapes",
+          "scientificName": "Vitis vinifera",
+          "teaser": "Vital for regional beverages and fruit.",
+          "image": "img/grapes.jpg",
+          "imageAlt": "Bunches of grapes",
+          "firstCultivated": "~8000 BCE",
+          "optimalClimate": "Warm temperate with dry harvest seasons",
+          "waterRequirement": "20 to 30 inches annually",
+          "description": "Grapes were domesticated in the Near East and spread rapidly across Mediterranean trade routes. Fresh fruit, raisins, and fermented beverages made vines economically and culturally important. Terraced vineyards still shape landscapes from Greece to southern France and North Africa.",
+          "quickFact": "Dried grapes (raisins) were an early long-storage food."
+        },
+        {
+          "id": "chickpeas",
+          "name": "Chickpeas",
+          "scientificName": "Cicer arietinum",
+          "teaser": "Primary protein source in early diets.",
+          "image": "img/chickpeas.jpg",
+          "imageAlt": "Bowl of chickpeas",
+          "firstCultivated": "~7000 BCE",
+          "optimalClimate": "Cool winters, warm dry summers",
+          "waterRequirement": "14 to 20 inches annually",
+          "description": "Chickpeas were a key pulse of early Mediterranean agriculture, supplying plant protein when meat was scarce. They fix nitrogen in the soil and store well as dried seed. Hummus, falafel, and stews continue that legacy across the eastern Mediterranean and beyond.",
+          "quickFact": "Chickpeas remain central to many eastern Mediterranean dishes."
+        }
+      ]
+    },
+    {
+      "id": "africa",
+      "name": "Africa",
+      "summary": "Drought-tolerant grains and root crops central to Sub-Saharan food culture.",
+      "image": "img/region-africa.jpg",
+      "imageAlt": "Harvest field representing African agriculture",
+      "crops": [
+        {
+          "id": "sorghum",
+          "name": "Sorghum",
+          "scientificName": "Sorghum bicolor",
+          "teaser": "A resilient grain of dryland Africa.",
+          "image": "img/sorghum.jpg",
+          "imageAlt": "Sorghum plants",
+          "firstCultivated": "~4000 BCE",
+          "optimalClimate": "Semi-arid tropical to subtropical",
+          "waterRequirement": "12 to 20 inches annually",
+          "description": "Sorghum was domesticated in northeastern Africa and remains a cornerstone cereal of the Sahel and savanna zones. Its deep roots and drought tolerance support harvests where maize often fails. Grain is milled for porridge, flatbreads, and fermented beverages across Sub-Saharan Africa.",
+          "quickFact": "Its drought tolerance makes it vital in semi-arid regions."
+        },
+        {
+          "id": "yams",
+          "name": "Yams",
+          "scientificName": "Dioscorea spp.",
+          "teaser": "A major root crop of West African diets.",
+          "image": "img/yams.jpg",
+          "imageAlt": "Yams",
+          "firstCultivated": "~5000 BCE",
+          "optimalClimate": "Humid tropical forest-savanna",
+          "waterRequirement": "40 to 60 inches annually",
+          "description": "African yams are culturally and nutritionally central in West Africa, especially Nigeria, Ghana, and neighboring states. Large tubers store energy for months and feature in festivals as well as daily pounded dishes like fufu. Yam cultivation historically supported dense farming communities in the forest belt.",
+          "quickFact": "Yams hold major cultural and dietary importance in West Africa."
+        },
+        {
+          "id": "pearl-millet",
+          "name": "Pearl Millet",
+          "scientificName": "Pennisetum glaucum",
+          "teaser": "A hardy cereal for arid climates.",
+          "image": "img/pearl-millet.jpg",
+          "imageAlt": "Pearl millet grain",
+          "firstCultivated": "~4500 BCE",
+          "optimalClimate": "Hot, arid to semi-arid",
+          "waterRequirement": "8 to 14 inches annually",
+          "description": "Pearl millet is among the most heat- and drought-tolerant cereals grown in Africa. Domesticated in the western Sahel, it sustains communities where rainfall is scarce and irregular. Flatbreads, porridges, and fermented drinks made from millet remain everyday staples from Senegal to Sudan.",
+          "quickFact": "Pearl millet performs well in hot, arid conditions where other cereals struggle."
+        },
+        {
+          "id": "cassava",
+          "name": "Cassava",
+          "scientificName": "Manihot esculenta",
+          "teaser": "A high-yield root crop that feeds millions.",
+          "image": "img/cassava.jpg",
+          "imageAlt": "Cassava roots",
+          "firstCultivated": "~8000 BCE (South America); widely adopted in Africa after 1500 CE",
+          "optimalClimate": "Hot tropical lowlands",
+          "waterRequirement": "20 to 40 inches annually",
+          "description": "Cassava arrived in Africa via Atlantic exchange and became a major food-security crop because roots can remain in the ground until needed. Proper processing removes natural toxins and yields gari, fufu, and flour. It now feeds hundreds of millions across humid Sub-Saharan regions.",
+          "quickFact": "Roots can stay in the ground until harvest is needed, supporting household food security."
+        }
+      ]
+    }
+  ]
+}

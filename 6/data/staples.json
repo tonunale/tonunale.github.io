@@ -1,0 +1,48 @@
+{
+  "title": "Global Staple Production (2025 Estimates)",
+  "subtitle": "Sample research figures for this course mock-up. This static dataset is separate from the interactive region explorer.",
+  "crops": [
+    {
+      "name": "Maize (Corn)",
+      "primaryRegion": "Americas",
+      "annualYieldMt": 1148,
+      "growthCycle": "90–120 days",
+      "barPercent": 100
+    },
+    {
+      "name": "Rice",
+      "primaryRegion": "Asia",
+      "annualYieldMt": 756,
+      "growthCycle": "105–150 days",
+      "barPercent": 66
+    },
+    {
+      "name": "Wheat",
+      "primaryRegion": "Europe",
+      "annualYieldMt": 734,
+      "growthCycle": "110–130 days",
+      "barPercent": 64
+    },
+    {
+      "name": "Sorghum",
+      "primaryRegion": "Africa",
+      "annualYieldMt": 62,
+      "growthCycle": "90–140 days",
+      "barPercent": 5.4
+    },
+    {
+      "name": "Cassava",
+      "primaryRegion": "Africa",
+      "annualYieldMt": 315,
+      "growthCycle": "8–24 months",
+      "barPercent": 27
+    },
+    {
+      "name": "Soybeans",
+      "primaryRegion": "Asia",
+      "annualYieldMt": 390,
+      "growthCycle": "90–150 days",
+      "barPercent": 34
+    }
+  ]
+}
