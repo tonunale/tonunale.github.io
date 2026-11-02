@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Compare staple crop production yields across culinary regions.">
+    <meta name="keywords" content="staple crops, yield data, agriculture statistics">
+    <meta name="author" content="Timothy O Nunaley Jr.">
+    <title>Staples Data — AgriCulture</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="index.html">Agri<span>Culture</span></a>
+
+            <nav class="site-nav" aria-label="Primary">
+                <a href="index.html">Home</a>
+                <a href="explore.html">Explore</a>
+                <a href="staples.html" aria-current="page">Staples</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <a href="../index.html" class="back-button">Portfolio</a>
+            <div id="account-slot"></div>
+        </div>
+    </header>
+
+    <main id="main" class="data-table-container">
+        <div class="hero-blurb">
+            <h1>Staples <span class="highlight">comparison</span></h1>
+            <p>Compare estimated annual yields for major staple crops across culinary regions.</p>
+        </div>
+
+        <div id="staples-mount">
+            <div class="loading-panel" role="status">
+                <p><strong>Loading staple production data…</strong></p>
+            </div>
+        </div>
+
+        <aside class="fun-fact">
+            <strong>Read the yields</strong>
+            <p>Filter by region, sort any column, and select a row to highlight a crop’s production profile.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p class="footer-brand">Agri<span>Culture</span></p>
+        <p>&copy; 2026 AgriCulture Database · Timothy O Nunaley Jr.</p>
+        <p>Contact: Timothy O Nunaley Jr. · University of Mississippi</p>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/firebase-init.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/staples-data.js"></script>
+    <script src="js/staples.js"></script>
+</body>
+</html>

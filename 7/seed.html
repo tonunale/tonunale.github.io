@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Upload AgriCulture atlas data for the explorer.">
+    <meta name="author" content="Timothy O Nunaley Jr.">
+    <title>Upload Atlas Data — AgriCulture</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="index.html">Agri<span>Culture</span></a>
+
+            <nav class="site-nav" aria-label="Primary">
+                <a href="index.html">Home</a>
+                <a href="explore.html">Explore</a>
+                <a href="staples.html">Staples</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <a href="../index.html" class="back-button">Portfolio</a>
+            <div id="account-slot"></div>
+        </div>
+    </header>
+
+    <main id="main">
+        <div class="hero-blurb">
+            <h1>Upload <span class="highlight">atlas</span></h1>
+            <p>Sign in, then upload the culinary region catalog so Explore can show regions and crop dossiers.</p>
+        </div>
+
+        <section class="contact-panel" aria-labelledby="seed-heading">
+            <h2 id="seed-heading">Upload atlas data</h2>
+            <button type="button" id="seed-button" class="btn btn-primary">Upload atlas data</button>
+            <p id="seed-status" class="signin-status" role="status" aria-live="polite">Waiting for sign-in…</p>
+            <aside class="fun-fact">
+                <strong>Next step</strong>
+                <p>After a successful upload, open Explore and choose a region.</p>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer-brand">Agri<span>Culture</span></p>
+        <p>&copy; 2026 AgriCulture Database · Timothy O Nunaley Jr.</p>
+        <p>Contact: Timothy O Nunaley Jr. · University of Mississippi</p>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/firebase-init.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/seed-data.js"></script>
+    <script src="js/seed.js"></script>
+</body>
+</html>
